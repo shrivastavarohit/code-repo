@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # SRP Login
 
 A clean login system with React + Spring Boot backend.
@@ -38,6 +37,3 @@ Open browser console and run `localStorage.clear()`, then refresh.
 Check that your backend is running on localhost:8080.
 
 That's it! Simple authentication system ready to go.
-=======
-# code-repo
->>>>>>> d358d445a2efcd68912ba7fa36518420f1950a13
