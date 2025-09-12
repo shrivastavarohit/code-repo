@@ -11,8 +11,16 @@ A clean login system with React + Spring Boot backend.
 
 ## How to run
 
+**Prerequisites:** Node.js 20+ and npm
+
 ```bash
+# Install dependencies
 npm install
+
+# If Vite is not installed globally, install it
+npm install vite
+
+# Start the development server
 npm run dev
 ```
 
@@ -29,6 +37,9 @@ Open http://localhost:5173
 - React Router for navigation
 
 ## Troubleshooting
+
+**"npm run dev" fails with Vite not found?**
+Run `npm install vite` or `npm install -g vite` to install Vite globally.
 
 **"Access Denied" on dashboard?**
 Open browser console and run `localStorage.clear()`, then refresh.
